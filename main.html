@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
 
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skill {
+            width: calc(33.33% - 20px);
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .skill-icon {
+            font-size: 40px;
+        }
+
+        .progress {
+            height: 20px;
+            background-color: #ccc;
+            border-radius: 10px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 70%; /* Adjust the width to represent your skill level */
+            background-color: #007bff;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Full Name</h1>
+        <p>Email: your.email@example.com</p>
+    </header>
+
+    <section>
+        <h2>Profile</h2>
+        <p>Web Developer</p>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with a strong background in front-end and back-end technologies. I enjoy creating user-friendly and responsive websites that provide a great user experience.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <i class="skill-icon">HTML</i>
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="skill-icon">CSS</i>
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="skill-icon">JavaScript</i>
+                <div class="progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+</body>
+</html>
